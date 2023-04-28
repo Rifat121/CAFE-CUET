@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: AGENCY FB;
+}
+h1 a{
+	font-size: 45px;
+	font-family: waterlily;
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7)),url(../new.jpg);
+	background-color: black;
+	border-color: red;
+	border-bottom: orange;
+	color: #f92;
+	padding-left: 20px;
+	padding-right: 82%;
+}
+h4{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7)),url(../new.jpg);
+	text-align: right;
+	padding-right: 20px;
+	color: ghostwhite;
+	font-size: 30px;
+	
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../cover.jpg);
+	background-color: cyan;
+	height: 110vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	
+}
+ul li{
+  display: inline-block;
+
+}
+ul li a{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../aboutus.png);
+	height: 2em;
+	text-decoration: none;
+	/*color: #f92;*/
+	color: white;
+	border-radius: 15px;
+	font-family: Century Gothic;
+	padding: 8px 25px;
+	margin-right: 20px;
+	border: 1px solid transparent;
+	transition: 1s ease;
+	font-size: 20px;
+	cursor: pointer;
+}
+#logout
+{
+background-color: #3838e5;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 10%;
+    border-radius: 30px;
+}
+#logout:hover{
+	background-color: cyan;
+	color : black;
+	transform-style: flat;
+}
+
+ul li a:hover {
+	background-color: purple;
+	color: white;
+	
+}
+ul li.active a{
+	background-color: #fff;
+	color: black;
+	
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+
+}
