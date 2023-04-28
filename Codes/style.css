@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: AGENCY FB;
+}
+h1{
+	font-size: 65;
+	font-stretch: expanded;
+	background-image: url(../new.jpg);
+	background-color: black;
+	border-color: red;
+	border-bottom: orange;
+	color: #f92;
+}
+/*for login*/
+		{box-sizing: border-box;}
+/*.open-button{
+	background-color: #00f;
+	color: white;
+	font-family: AGENCY FB;
+	font-size: 28;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: center;
+	bottom: 50px;
+	right: 45px;
+	width: 280px;
+}
+.open-button:hover{
+	background-color: indigo;
+}*/
+.form-popup{
+	display: none;
+	position: fixed;
+	bottom: 40;
+	right: 25%;
+	border: 3px solid linear-gradient;
+	z-index: 9;
+}
+.form-container{
+	max-width: 250px;
+	height: 50vh;
+	bottom: 20px;
+	right: 10px;
+	padding: 10px;
+	background-color: #fff;
+}
+.form-container input[type=text],.form-container input[type=password]{
+	width: 80%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	font-size: 20;
+	background: #f1f1f1;
+}
+.form-container .btncancel, .form-container .btn{
+	background-color: #4CAf50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	font-size: 20;
+	cursor: pointer;
+	transition: transform 0.2s;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 1;
+}
+.form-container .btncancel:hover{
+	background-color: red;
+	opacity: 1;
+}
+.form-container .btn:hover{
+	background-color: blue;
+	opacity: 0;
+}
+header
+{
+	background-image:url(../back.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: left;
+	list-style-type: none;
+}
+ul li a,ul li{
+	display: inline-block;
+	text-decoration: none;
+	/*color: #f92;*/
+	color: white;
+	/*font-family: Century Gothic;*/
+	padding: 8px 28px;
+	margin-right: 10px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+	font-size: 20;
+	cursor: pointer;
+}
+
+ul li a:hover,ul li:hover {
+	background-color: #008;
+	color: white;
+
+}
+ul li.active a{
+	background-color: #008;
+	color: #fff;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}

@@ -1,0 +1,37 @@
+<htm>
+<title> Cafe Cuet</title>
+<h1><center> <pre>C @ F E    C U E T</pre> </center></h1>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+	<header>
+		<div class="main">
+			<ul><br><br>
+				<li class="active"><b><a href="#">Home</a></b></li>
+				<li><b><a href="menu.html">Menu</a></b></li>
+				<li><b><a href="#">Order</a></b></li>
+				<li><b><a href="about.html">Contact us</a></b></li>
+			   <li class="login" onclick="openForm()"><b>Log In</b></li>
+			</ul>
+		</div>
+		<div class="form-popup" id="myform">
+	<form action="/action_page.php" class="form-container">
+		<h2><center> Sign In </center></h2><br><hr>
+		<label for="email"></label>
+		<input type="text" placeholder="Enter Email" name="email" required><br>
+		<label for psw></label>
+		<input type="Password" placeholder="Enter Password" name="psw" required>
+		<button type="submit" class="btn">Log in</button>
+		<button type="submit" class="btncancel" onclick="closeForm()">Cancel</button>			
+	</form>
+</div>
+	<br>
+	<script>
+	function openForm(){
+	document.getElementById("myform").style.display="block";
+}
+function closeForm(){
+	document.getElementById("myform").style.display="none"
+}
+</script></header>
+</body>
+</htm>

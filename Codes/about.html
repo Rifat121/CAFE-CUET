@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cafe Cuet</title>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	font-family: AGENCY FB,Century Gothic;
+}
+
+ h1{
+	font-family:sans-serif ;
+	font-size: 65;
+	font-stretch: normal;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../new.jpg);
+	background-color: black;
+	border-color: red;
+	border-bottom: orange;
+	color: #f92;
+}
+.logo{
+	position: center;
+}
+ul{
+	position: absolute;
+    float: center;
+  	list-style-type: none; 
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  font-family: AGENCY FB;
+  padding: 5px 25px;
+  margin-left: 200px;
+  border: 3px solid transparent;
+  transition: 0.5s ease;
+  font-size: 20;
+  border-radius: 10px;
+}
+
+ul li a:hover{
+  background-color: #007;
+  color: #fff;
+
+}
+ul li.active a{
+  background-color: #008;
+  color: #fff;
+}
+.left {
+  flex: 60%;
+  padding: 15px 0;
+}
+.para{
+  position: absolute;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 10%; 
+  font-size: 25px;
+  font-family: Century Gothic;
+}
+
+</style>
+<body style="background-color:darkcyan;">
+	<div class="scrollmenu">
+
+      <ul><br><br>
+        <li> <b><a href="cafe.php">Home</b></a></li>
+        <li><b><a href="search.php">Menu</a></b></li>
+        <li><b><a href="reg.php">Order</a></b></li>
+        <li class="active"><b><a href="#">Contact Us</a></b></li>
+      </ul><p class="para">Cafe Cuet is an online based restaurant in Chittagong.<br> We are offering online food delivery service.<br>For placing your order <br>
+        visit our website or <br>
+        Contact us @<br>FB: <a href="#">Jahid Hasan Jami</a> <a href="#"> Jahedul Alam Rifat<br></a> Mob: <a href="#">01845129784</a>
+        <a href="#"> 01587496510</a> </p><img  src="aboutus.jpg" height="600px" width="1370px">
+      
+     
+    </div>
+      
+
+</body>
+</html>
